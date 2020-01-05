@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity" >
+
+    <com.example.implicit_intents.EditTextClear
+        android:id="@+id/et_openwebsite"
+        android:hint="@string/edittext_uri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_openwebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_uri"
+        android:onClick="openWebsite"
+        android:layout_marginBottom="24dp" />
+
+    <com.example.implicit_intents.EditTextClear
+        android:id="@+id/et_openlocation"
+        android:hint="@string/edittext_loc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btn_openlocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_loc"
+        android:onClick="openLocation"
+        android:layout_marginBottom="24dp" />
+
+    <com.example.implicit_intents.EditTextClear
+        android:id="@+id/et_sharetext"
+        android:hint="@string/edittext_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_sharetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_share"
+        android:onClick="shareText"
+        android:layout_marginBottom="24dp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
